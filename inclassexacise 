@@ -1,0 +1,129 @@
+<html>
+<head>
+
+
+   <link rel="stylesheet" href="/home/ukistu12/Documents/uki3/bootstrap/bootstramp_templete/bootstrap/05 - Final Website/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="/home/ukistu12/Documents/uki3/bootstrap/bootstramp_templete/bootstrap/05 - Final Website/bootstrap/css/bootstrap.min.css">
+    <script src="/home/ukistu12/Documents/uki3/bootstrap/bootstramp_templete/bootstrap/05 - Final Website/bootstrap/css/bootstrap.css"></script>
+    <script src="stylesheet" href="/home/ukistu12/Documents/uki3/bootstrap/bootstramp_templete/bootstrap/05 - Final Website/bootstrap/css/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/home/ukistu12/Documents/uki3/bootstrap/bootstramp_templete/bootstrap/05 - Final Website/includes/bootstrap-glyphicons.css">
+    <link rel="stylesheet" href="/home/ukistu12/Documents/uki3/bootstrap/bootstramp_templete/bootstrap/05 - Final Website/includes/styles.css">
+    <script src="/home/ukistu12/Documents/uki3/bootstrap/bootstramp_templete/bootstrap/05 - Final Website/includesjquery-1.8.2.min.js"></script>
+    <script src="/home/ukistu12/Documents/uki3/bootstrap/bootstramp_templete/bootstrap/05 - Final Website/includesmodernizr-2.6.2.min.js"></script>
+<script src="/home/ukistu12/Documents/uki3/bootstrap/bootstramp_templete/bootstrap/05 - Final Website/includesscript.js"></script>
+
+
+</head>
+<body>
+
+  <div class="dropdown">
+      <button class="btn btn-danger dropdown-toggle" type="button" data-toggle="dropdown" >button Dropdown menu
+      <span class="caret"></span></button>
+      <ul class="dropdown-menu" >
+        <li><a href="#">home</a></li>
+        <li><a href="#">bootstrap</a></li>
+        <li><a href="#">Jqurey</a></li>
+        <li><a href="#">Jqurey ul</a></li> <hr>
+        <li><a href="#">PHP</a></li>
+      </ul>
+    </div>
+
+ <hr>
+
+ <nav class="navbar navbar-default">
+   <div class="container-fluid">
+     <ul class="nav navbar-nav">
+       <li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span> HOME</a></li>
+       <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-menu-hamburger" ></span> MENUS  <span class="glyphicon glyphicon-plus"></a>
+         <ul class="dropdown-menu stylus-drp-li">
+           <li>Menu 1</li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Menu 2 <span class="glyphicon glyphicon-plus"></span></a>
+          <li class="dropdown open"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Menu 2 <span class="glyphicon glyphicon-plus"></span></a>
+             <ul class="dropdown-menu stylus-drp-li">
+              <li>Menu 1</li>
+              <li><a href="#">Menu 1</a></li>
+             </ul>
+           </li>
+         </ul>
+       </li>
+       <li><a href="#"><span class="glyphicon glyphicon-cog"></span> SETTINGS</a></li>
+       <li><a href="#"><span class="glyphicon glyphicon-earphone"></span> CONTACT</a></li>
+     </ul>
+   </div>
+ </nav>
+
+<hr>
+
+<nav class="navbar navbar-default">
+  <div class="container-flurd">
+
+    <ul class ="nav navbar-nav">
+      <li><a href="#">Home</a></li>
+      <li class="dropdown"><a class="dropdown-toggle"data-toggle="dropdown"href="#">Service<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Web design</a></li>
+          <li><a href="#">Web Development</a></li>
+          <li><a href="#">Web Hosting</a></li>
+        </ul>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Contect</a></li>
+    </ul>
+  </div>
+</nav>
+
+<hr>
+
+
+<div class="container">
+  <table class="table">
+    <thead>
+      <tr>
+
+        <th>Product ID</th>
+        <th>Product Name</th>
+        <th>Product Quantity</th>
+        <th>Product Quantity</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="info">
+        <td>1</td>
+        <td>Wheat</td>
+        <td>Good</td>
+        <td>200Bags</td>
+      </tr>
+      <tr class="danger">
+        <td>2</td>
+        <td>Rice</td>
+        <td>Good</td>
+        <td>250 Bags</td>
+      </tr>
+      <tr class="warning">
+        <td>3</td>
+        <td>Suger</td>
+        <td>Good</td>
+        <td>200 Bags</td>
+      </tr>
+      <tr class="active">
+        <td>3</td>
+        <td>Suger</td>
+        <td>Good</td>
+        <td>200 Bags</td>
+      </tr>
+      <tr class="success">
+        <td>3</td>
+        <td>Suger</td>
+        <td>Good</td>
+        <td>200 Bags</td>
+      </tr>
+
+  </table>
+<hr>
+
+
+
+
+
+</body>
+</html>
